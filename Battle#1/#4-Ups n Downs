@@ -1,0 +1,26 @@
+<div class="down"></div>
+<div class="up"></div>
+<div class="down"></div>
+<style>
+  body{
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div{
+    background: #F7EC7D;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+  }
+  .up{
+    top: -50px;
+    border-radius: 50px 50px 0 0;
+  }
+  .down{
+    top: 50px;
+    border-radius: 0 0 50px 50px;
+  }
+</style>
