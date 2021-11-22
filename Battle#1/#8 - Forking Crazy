@@ -1,0 +1,41 @@
+<div class="main dark"></div>
+<div class="line dark"></div>
+<div class="line light"></div>
+<div class="line dark"></div>
+<div class="line light"></div>
+<div class="line dark"></div>
+<div class="line light"></div>
+<div class="line dark"></div>
+<div class="line dark"></div>
+<style>
+  body{
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    transform: translateY(25px);
+    width: 140px;
+    height: 150px;
+    position: absolute;
+    border-radius: 0 0 50% 50%;
+  }
+  .dark{
+    background: #060F55;
+  }
+  .light{
+    background: #6592CF;
+  }
+  .line{
+    width: 20px;
+    height: 110px;
+    transform: translateY(-45px);
+    border-radius: 10px;
+  }
+  .line:last-of-type{
+    position: absolute;
+    transform: translateY(110px);
+  }
+
+</style>
