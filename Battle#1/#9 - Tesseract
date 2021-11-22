@@ -1,0 +1,39 @@
+<div class="rectangle blue"></div>
+<div class="bsquare"></div>
+<div class="ssquare blue"></div>
+<div class="dot"></div>
+<style>
+  body{
+    background: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div{
+    position: absolute;
+  }
+  .blue{
+    background:#4CAAB3;
+  }
+  .rectangle{
+    width: 100%;
+    height: 50%;
+  }
+  .bsquare{
+    background: #222730;
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg)
+  }
+  .ssquare{
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg)
+  }
+  .dot{
+    background: #393E46;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+  }
+</style>
