@@ -1,0 +1,51 @@
+<div class="rectangle yellow"></div>
+<div class="square yellow"></div>
+<div class="center circle"></div>
+<div class="aside left circle"></div>
+<div class="aside right circle"></div>
+<style>
+  body{
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  div{
+    position: absolute
+  }
+  .yellow{
+    background: #F7EC7D;
+  }
+  .rectangle{
+    top: 200px;
+    width: 300px;
+    height: 100px;
+  }
+  .square{
+    top: 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .center{
+	top: 50px;
+    background: #AA445F;
+    border: solid 20px #E38F66;
+  }
+  .aside{
+    top: 150px;
+    background: #E38F66;
+    border: solid 20px #AA445F;
+  }
+  .left{
+    left: 50px;
+  }
+  .right{
+    right: 50px;
+  }
+</style>
