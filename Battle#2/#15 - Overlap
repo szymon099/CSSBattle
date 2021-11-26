@@ -1,0 +1,48 @@
+<div id="left" class="circle"></div>
+<div id="right" class="circle"></div>
+<div class="sharp-container">
+	<div id="sharp" class="circle"></div>
+</div>
+<div class="sharp-container2">
+	<div id="sharp2" class="circle"></div>
+</div>
+<style>
+  body{
+    background: #09042A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #left{
+    background: #7B3F61;
+    transform: translatex(25px)
+  }
+  #right{
+    background: #E78481;
+    transform: translatex(-25px)
+  }
+  .sharp-container{
+    position: absolute;
+    width: 27px;
+    overflow: hidden;
+    transform: translatex(-12px)
+  }
+  #sharp{
+    background: #09042A;
+  }
+  .sharp-container2{
+    position: absolute;
+    width: 35px;
+    overflow: hidden;
+    transform: translatex(18px)
+  }
+  #sharp2{
+    transform: translateX(-126px);
+    background: #09042A;
+  }
+  .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+</style>

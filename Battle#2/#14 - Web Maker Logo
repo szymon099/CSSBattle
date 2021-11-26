@@ -1,0 +1,37 @@
+<div id="first"></div>
+<div id="second"></div>
+<div id="third"></div>
+<div id="fourth"></div>
+<style>
+  body{
+    background: #F2F2B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+  }
+  #first{
+    border-bottom: 130px solid #FF6D00;
+    transform: rotate(180deg) translateX(43.5%);
+    z-index: 1;
+  }
+  #second{
+    border-bottom: 130px solid #FD4602;
+    transform: rotate(180deg) translateX(30%);
+  }
+  #third{
+    border-bottom: 130px solid #FD4602;
+    transform: translateX(30%);
+    z-index: 1;
+  }
+  #fourth{
+    border-bottom: 130px solid #FF6D00;
+    transform: translateX(43.5%);
+  }
+</style>
